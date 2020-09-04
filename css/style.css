@@ -1,0 +1,17 @@
+hr{
+    width: 80%;
+    border: none;
+    border-top: 4px double black;
+    color: black; 
+    text-align: center;
+    overflow:visible;
+    
+}
+hr:after {
+    background: #fff;
+    content: "\2740";
+    padding: 0 6px;
+    position: relative;
+    top: -22px;
+    font-size: 30px;
+}
