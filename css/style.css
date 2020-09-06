@@ -43,7 +43,7 @@ nav ul li a{
   text-decoration: none;
   color:white;
   background-color: rgb(82, 141, 22);
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
 }
 /*styling img in the three pages*/
@@ -53,7 +53,7 @@ nav ul li a{
 #urlDescription, #loveToLearn, #regel{
   text-align: center;
 }
-/*page3*/
-
-
-
+/*force the line to break in small*/
+small, #urlQuestion h4{
+  word-break: break-all;
+}
