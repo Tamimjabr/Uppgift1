@@ -46,21 +46,14 @@ nav ul li a{
   padding: 10px;
   border-radius: 10px;
 }
-/*index.html*/
-#urlDescription img{
-  max-height:250px;
-  margin: auto auto;
+/*styling img in the three pages*/
+#urlDescription img, #loveToLearn img, #regel img{
+  max-height:300px;
 }
-#urlDescription{
+#urlDescription, #loveToLearn, #regel{
   text-align: center;
 }
-/**/
 /*page3*/
-#regel img{
-  max-height: 300px;
-}
-#regel{
-  text-align: center;
-}
+
 
 
