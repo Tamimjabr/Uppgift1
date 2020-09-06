@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body{
+  max-width: 1000px;
+  margin: 0 auto;  
+}
+/*styling the horizontal line in all pages*/
 hr{
     width: 80%;
     border: none;
@@ -15,4 +20,12 @@ hr:after {
     position: relative;
     top: -22px;
     font-size: 30px;
+}
+/*index.html*/
+#urlDescription img{
+  max-height:250px;
+  margin: auto auto;
+}
+#urlDescription{
+  text-align: center;
 }
