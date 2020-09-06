@@ -2,6 +2,8 @@
 body{
   max-width: 1000px;
   margin: 0 auto;  
+  font-size: 1.2em;
+  padding: 10px;/*adding inner margin so the text is not exactly to the edge for small screens */
 }
 /*styling the horizontal line in all pages*/
 hr{
@@ -21,6 +23,13 @@ hr:after {
     top: -22px;
     font-size: 30px;
 }
+/*making all the img responsive*/
+img{
+  max-width: 100%;
+}
+h1{
+font-size: 1.1em;
+}
 /*index.html*/
 #urlDescription img{
   max-height:250px;
@@ -29,3 +38,13 @@ hr:after {
 #urlDescription{
   text-align: center;
 }
+/**/
+/*page3*/
+#regel img{
+  max-height: 300px;
+}
+#regel{
+  text-align: center;
+}
+
+
