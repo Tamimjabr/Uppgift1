@@ -17,6 +17,7 @@ hr{
     color: black; 
     text-align: center;
     overflow:visible;  
+    height: 5px;
 }
 hr:after {
     background: #fff;
@@ -25,12 +26,15 @@ hr:after {
     position: relative;
     top: -22px;
     font-size: 30px;
+  
 }
 header{
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   min-height: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 /*making all the img responsive*/
 img{
@@ -45,7 +49,7 @@ nav ul{
 }
 nav ul li{
   padding: 10px;
-  display: inline-block;
+  display: inline;
 }
 nav ul li a{
   text-decoration: none;
@@ -64,4 +68,8 @@ nav ul li a{
 /*force the line to break in small*/
 small, #urlQuestion h4{
   word-break: break-all;
+}
+/*the list in index*/
+#urlQuestion ul{
+  list-style: square;
 }
