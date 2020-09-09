@@ -1,11 +1,11 @@
 @charset "UTF-8";
 html{
-  font-size: 16px;
-}
-body{
+  font-size: 16px;  
   background-image: url(../img/pink.jpg); /*Photo by eberhard grossgasteiger on Unsplash*/
   background-position: center center;
   background-size: cover;
+}
+body{
   max-width: 1000px;
   margin: 0 auto;  
   font-size: 1.2em;
