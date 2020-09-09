@@ -3,7 +3,9 @@ html{
   font-size: 16px;
 }
 body{
-  background-color: rgb(212, 159, 59);
+  background-image: url(../img/pink.jpg);
+  background-position: center center;
+  background-size: cover;
   max-width: 1000px;
   margin: 0 auto;  
   font-size: 1.2em;
@@ -26,7 +28,8 @@ hr:after {
     position: relative;
     top: -22px;
     font-size: 30px;
-    background-color: rgb(212, 159, 59);;
+    background-color:	rgb(251, 200, 199);
+    border-radius: 50%;
   
 }
 header{
@@ -37,10 +40,6 @@ header{
   min-height: 50px;
   width: 80%;
   margin: 0 auto;
-}
-/*making all the img responsive*/
-img{
-  max-width: 100%;
 }
 h1{
 font-size: 1.1em;
@@ -61,7 +60,10 @@ nav ul li a{
   padding: 5px;
   border-radius: 10px;
 }
-/*styling img in the three pages*/
+/*styling img in the three pages and making all the img responsive*/
+img{
+  max-width: 100%;
+}
 #urlDescription img, #loveToLearn img, #regel img{
   max-height:300px;
 }
