@@ -40,12 +40,17 @@ header{
   min-height: 50px;
   max-width: 80%;
   margin: 0 auto;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
 }
 h1{
   font-size: 1.1em;
 }
 header h1 span{
   font-variant: small-caps;
+}
+h3{
+  text-indent: 1rem;
 }
 nav{
   text-align: center;
