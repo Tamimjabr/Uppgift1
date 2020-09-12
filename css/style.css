@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html{
-  font-size: 16px;  
+  font-size: 16px;
 }
 body{
   background-image: url(../img/pink.jpg); /*Photo by eberhard grossgasteiger on Unsplash*/
@@ -28,7 +28,7 @@ hr::after {
     padding: 0 6px;
     position: relative;
     top: -22px;
-    font-size: 30px;
+    font-size: 1.8rem;
     background-color:	rgb(251, 200, 199);
     border-radius: 50%;
 }
@@ -38,11 +38,14 @@ header{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   min-height: 50px;
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto;
 }
 h1{
-font-size: 1.1em;
+  font-size: 1.1em;
+}
+header h1 span{
+  font-variant: small-caps;
 }
 nav{
   text-align: center;
@@ -72,9 +75,8 @@ nav a:hover, nav a:active{
   text-decoration: underline;
 }
 header a:link, header a:visited{
-  color: white;
+  color: rgb(226, 176, 12);
   text-decoration: none;
-  
 }
 header a:hover,header a:active{
   color: rgba(211, 160, 20, 0.5);
@@ -100,6 +102,10 @@ small, #urlQuestion h4{
 /*the list in index*/
 #urlQuestion ul{
   list-style: square;
+}
+#cascadeAnswer span{
+  color: red;
+  font-style: italic;
 }
 footer{
   margin-bottom: 15px;
