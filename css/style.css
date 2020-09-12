@@ -40,8 +40,8 @@ header{
   min-height: 50px;
   max-width: 80%;
   margin: 0 auto;
-  text-transform: capitalize;
   letter-spacing: 0.25rem;
+  text-shadow: -0.2rem 0.1rem 0.3rem rgb(185, 179, 179);
 }
 h1{
   font-size: 1.1em;
@@ -80,7 +80,7 @@ nav a:hover, nav a:active{
   text-decoration: underline;
 }
 header a:link, header a:visited{
-  color: rgb(226, 176, 12);
+  color: rgb(97, 76, 7);
   text-decoration: none;
 }
 header a:hover,header a:active{
