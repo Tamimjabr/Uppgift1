@@ -46,9 +46,6 @@ header{
 h1{
   font-size: 1.1em;
 }
-header h1 span{
-  font-variant: small-caps;
-}
 h3{
   text-indent: 1rem;
 }
@@ -90,6 +87,9 @@ header a:hover,header a:active{
 .selectedPage{
   background-color: yellowgreen !important;/*!important otherwise nav a:link has higher precedence*/
 }
+dl{
+  line-height: 140%;
+}
 /*styling img in the three pages and making all the img responsive*/
 img{
   max-width: 100%;
@@ -106,7 +106,7 @@ small, #urlQuestion h4{
 }
 /*the list in index*/
 #urlQuestion ul{
-  list-style: square;
+  list-style-type: square;
 }
 #cascadeAnswer span{
   color: red;
