@@ -101,3 +101,6 @@ small, #urlQuestion h4{
 #urlQuestion ul{
   list-style: square;
 }
+footer{
+  margin-bottom: 15px;
+}
