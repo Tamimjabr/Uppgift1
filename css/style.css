@@ -5,7 +5,7 @@ html{
 body{
   background-color: rgb(251, 200, 199); /*a backup for background-image*/
   background-image: url(../img/pink.jpg); /*Photo by eberhard grossgasteiger on Unsplash*/
-  background-position: center center;
+  background-position: right bottom;
   background-size: cover;
   background-attachment: fixed;
   max-width: 1000px;
