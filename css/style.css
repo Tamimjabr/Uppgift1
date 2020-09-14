@@ -113,6 +113,10 @@ small, #urlQuestion h4{
   color: red;
   font-style: italic;
 }
+/*change the padding of ul*/
+#elementAttribute{
+  padding-left: 10px;
+}
 footer{
   margin-bottom: 15px;
 }

@@ -34,10 +34,13 @@
         <h3>Svar:</h3>
         <dl>
             <dt>Element</dt>
-                <dd>det är komponenterna som HTML-documentet består av.</dd>
+                <dd>Det är komponenterna som HTML-documentet består av. Olika element används för att visa olika komponenter i webbsidan,
+                    till exempel används elementen <b>img</b> för att visa bilder.
+                </dd>
             <dt>Tagg</dt>
-                <dd>Det är koden som beskriver var HTMLs element börjar och slutar och vilken uppgift detta element utför,
-                     samt den innehåller också elementets attribut ifall elementet har ett eller några.</dd>
+                <dd>Den kännetecknas av &lt; &gt;, och den visar var HTML:s element börjar och slutar,
+                    samt den innehåller också elementets attribut ifall elementet har ett eller några.
+                    Vissa HTML:s element har en starttagg och en slutstagg, medan andra har bara en starttagg där behövs inte en sluttagg.</dd>
             <dt>Attribut</dt>
                 <dd>Det är egenskap som ger information om elementet eller påverkar på något sätt elementets beteende.
                      Exempel: &lt;img src=”bananan.jpg” alt=”yellow banana”/&gt; attributet <b>src</b> beskriver vilken bild som ska finnas i bildelementet
@@ -49,7 +52,7 @@
             <h4>2. Skapa en lista med elementen a, img och ol på varsin rad. Under var och en av dem lägger du in en underlista med tre exempel på attribut som finns för dem.
                  Du ska endast ta med de attribut som finns i HTML5. (Tips: titta på referenslistan på W3Schools.)</h4>
             <h3>Svar:</h3>    
-            <ul>
+            <ul id="elementAttribute">
                 <li>&lt;a &gt;&lt;a /&gt;, exempel på attribut:
                     <ol>
                         <li>href: anger länkens destination</li>
@@ -59,7 +62,7 @@
                 </li>
                 <li>&lt;img /&gt;, exempel på attribut:
                     <ol>
-                        <li>src: anger vilken bild ska visas och det är ett attribut som nödvändig att ha i taggen av img</li>
+                        <li>src: anger vilken bild ska visas och detta attribut är nödvändigt att ha i img elementet</li>
                         <li>alt: anger vilken text ska visas ifall det inte fungerar att visa bilden och det är också nödvändigt att ha</li>
                         <li>width: anger bildens bredd</li>
                         <li>height: anger bildens höjd</li>
@@ -68,7 +71,8 @@
                 <li>&lt;ol &gt;&lt;ol /&gt;, exempel på attribut:
                     <ol>
                         <li>type: anger vilken typ av markör ska visas bredvid listans element</li>
-                        <li>start: anger ordningsnummer for startvärdet. Exempel: om vi angav "a" som "type", för att få listan att börja med b istället för a så måste man ange "2" som "start" </li>
+                        <li>start: anger ordningsnummer for startvärdet. Exempel: om vi anger "a" som "type",
+                             för att få listan att börja med "b" istället för "a" så måste man ange "2" som "start" </li>
                         <li>reversed: anger att listan ska vara i omvänd ordning</li>
                     </ol>
                 </li>
